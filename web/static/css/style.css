@@ -1,0 +1,275 @@
+@media (min-width: 1200px) {
+    .container {
+        width: 1000px;
+    }
+}
+
+
+@charset "utf-8";
+.shopping-car-container {
+    padding: 50px 40px;
+}
+
+.shopping-car-container .car-headers-menu {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0 15px;
+}
+
+.shopping-car-container .panel-body {
+    padding: 15px 0;
+}
+
+#checkAll {
+    vertical-align: text-bottom;
+}
+
+.shopping-car-container .car-menu {
+    text-align: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.shopping-car-container .goods-content {
+    margin-top: 15px;
+}
+
+.shopping-car-container .goods-content .goods-item {
+    margin-top: 20px;
+}
+
+.shopping-car-container .goods-content .goods-item .car-goods-info {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0px 10px 0px 10px;
+}
+
+.shopping-car-container .goods-content .goods-item .goods-image-column span {
+    width: calc(100% - 30px);
+    box-sizing: border-box;
+    text-indent: 2rem;
+    line-height: 25px;
+    padding: 10px;
+}
+
+.goods-price {
+    color: red;
+    font-weight: bolder;
+}
+
+.goods-count {
+    text-align: center;
+}
+
+/*.form-control {
+    text-align: center;
+}*/
+
+.single-total {
+    color: red;
+    font-weight: bold;
+}
+
+.goods-params {
+    color: darkgray;
+}
+
+.bottom-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-menu #checkAllBottom {
+    vertical-align: text-bottom;
+}
+
+#deleteMulty {
+    color: cornflowerblue;
+    cursor: pointer;
+    vertical-align: text-bottom;
+}
+
+.bottom-menu-include {
+    background: #e5e5e5;
+}
+
+#selectGoodsCount {
+    color: orangered;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+#selectGoodsMoney {
+    color: orangered;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.panel-default .submitData {
+    background: orangered;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    height: 58px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/*
+.panel-default .submitDis {
+    background: #B0B0B0;
+    cursor: no-drop;
+}
+*/
+
+.shopping-car-container .panel-default {
+    position: relative;
+}
+
+tr th {
+    text-align: center;
+}
+
+/*.desc .desc-text,.desc .desc-img{
+    display: block;
+    float: left;
+}*/
+
+#tab tr td {
+    vertical-align: middle;
+}
+
+.middle {
+
+    float: none;
+
+    display: inline-block;
+
+    vertical-align: middle;
+
+}
+
+.centerbox p {
+
+    padding: 0;
+    margin: 0;
+}
+
+.centerbox .imgname {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    width: 580px;
+    height: 40px;
+    font-family: Microsoft YaHei, arial;
+    margin-bottom: 10px;
+}
+
+.centerbox .Aprice, .price, .youhui {
+    background: rgba(232, 232, 232, 0.5);
+}
+
+.centerbox p, .centerbox samp {
+    width: 580px;
+    height: 33px;
+    font-size: 12px;
+    line-height: 33px;
+    color: #666;
+    font-family: "微软雅黑";
+    padding-left: 10px;
+}
+.centerbox .Aprice samp {
+    font-size: 14px;
+    text-decoration: line-through;
+    font-family: "华文仿宋";
+}
+
+.centerbox .price samp {
+    color: #D00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.centerbox .kefu {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 150px;
+    background-image: url(../img/details/tell03.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.centerbox .buy {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.centerbox .buy a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    color: #000;
+    border: 1px solid #ccc;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Microsoft YaHei,arial;
+    margin-left: 10px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+}
+
+#firstbuy {
+    background-color: #f00;
+    color: #fff;
+}
+
+.centerbox .fuwu {
+    width: 510px;
+    height: 35px;
+    margin-left: 10px;
+    background-image: url(../img/details/tell08.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.centerbox .fenx {
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.centerbox .pay {
+    width: 200px;
+    height: 35px;
+    margin-left: 10px;
+    background-image: url(../img/details/tell09.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.image{
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.panel-body .centerbox .buy a{
+    width: 150px;
+}
+
+
+.panel-body .centerbox .buy .pay-choice{
+    background-color: #f00;
+    color: #fff;
+}
+.panel-body .centerbox .buy{
+    margin-bottom: 25px;
+}
